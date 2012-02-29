@@ -8,8 +8,8 @@
     <ProjectGuid>{7A04DFB4-29C8-4452-860B-5771C3BC32A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>wex</RootNamespace>
-    <AssemblyName>wex</AssemblyName>
+    <RootNamespace>Open</RootNamespace>
+    <AssemblyName>Open</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

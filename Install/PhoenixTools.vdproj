@@ -241,7 +241,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PhoenixTools"
         "ProductCode" = "8:{105474EC-ECB5-44B2-BA0E-D15A6796A0C9}"
-        "PackageCode" = "8:{4E86A84E-1668-43A1-BCF9-D6C9FB1474C4}"
+        "PackageCode" = "8:{7E4B0589-31E1-49E8-8F7D-30DE53436288}"
         "UpgradeCode" = "8:{B9A90057-536F-40F6-B9BA-70F8AF238913}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

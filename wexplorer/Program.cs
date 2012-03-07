@@ -10,14 +10,21 @@ namespace Open
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Open .                : open windows explorer in a current folder.");
-                Console.WriteLine("Open C:\\program files : open windows explorer in C:\\program files");
+                var fileInfos = new DirectoryInfo(".").GetFiles("*.sln");
 
-                return;
+                if (fileInfos.Length == 0)
+                    Console.WriteLine("No Solution File Found");
+                else
+                {
+                    Console.WriteLine("Opening: " + fileInfos[0].Name);
+                    Process.Start(fileInfos[0].FullName);
+                }
             }
-
-            var path = string.Join(" ", args);
-            Process.Start(new DirectoryInfo(path).FullName);
+            else
+            {
+                var path = string.Join(" ", args);
+                Process.Start(new DirectoryInfo(path).FullName);
+            }
         }
     }
 }

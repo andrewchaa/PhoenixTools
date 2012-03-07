@@ -5,7 +5,7 @@ What is it?
 A small set of handy features for .NET developers
 
 In command prompt
-Open				           : open the sln file in the current folder (currently only supports one sln file)	
+Open				      : open the sln file in the current folder (currently only supports one sln file)	
 Open .                 : open windows explorer in the current folder.
 Open C:\\program files : open windows explorer in C:\\program files.
 

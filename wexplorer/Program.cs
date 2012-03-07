@@ -16,7 +16,7 @@ namespace Open
                 return;
             }
 
-            string path = string.Join(" ", args);
+            var path = string.Join(" ", args);
             Process.Start(new DirectoryInfo(path).FullName);
         }
     }
